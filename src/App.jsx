@@ -1,15 +1,17 @@
 
 import './App.css'
+import CategorySection from './Components/CategorySection/CategorySection'
+import Main from './Components/Main/Main'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
   
 
   return (
     <>
-   <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <button className="btn btn-primary">Button</button>
+ <Navbar></Navbar>
+ <Main></Main>
+  <CategorySection></CategorySection>
     </>
   )
 }
