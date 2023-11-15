@@ -1,4 +1,4 @@
-import React from 'react';
+
 import movies from './../../assets/all-icon/movies.png';
 import anime from './../../assets/all-icon/anime.png';
 import games from './../../assets/all-icon/games.png';
@@ -9,8 +9,8 @@ import ebooks from './../../assets/all-icon/ebooks.png';
 import download from './../../assets/all-icon/download.png'
 
 const TorrentMoviesData = (props) => {
-    const {name, uploader, size, comm,leeching,seeding,type , downComplete}= props.data
-    console.log(props.data)
+    const {name, uploader, size, comm,leeching,seeding,type , downComplete}= props.data;
+    // console.log(props.data)
     return (
         
             
