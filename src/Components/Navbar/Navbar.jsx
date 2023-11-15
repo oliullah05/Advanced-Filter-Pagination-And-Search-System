@@ -5,7 +5,7 @@ import torrantSearch from "./../../assets/all-icon//torrant-search.png"
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center bg-[#284766] p-2 '>
+        <nav className='flex justify-between items-center bg-[#284766] p-2'>
             <img  className=' h-[55px]' src={torrant} alt="" />     
             <div className="flex gap-6 ms-5 text-2xl text-white me-5 justify-center items-center">
                 <a href="">Movie</a>
